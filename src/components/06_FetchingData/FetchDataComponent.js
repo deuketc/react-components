@@ -1,7 +1,6 @@
-// https://reactjs.org/docs/hooks-effect.html Using the Effect Hook
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map Array.prototype.map()
-// https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch Using Fetch
-// https://jsonplaceholder.typicode.com/ Free fake API for testing and prototyping.
+/**************************************/
+/* Fetching data in a react component */
+/**************************************/
 
 import { useState, useEffect } from 'react';
 
@@ -27,3 +26,18 @@ function FetchDataComponent() {
 }
 
 export default FetchDataComponent;
+
+/********************/
+/* More information */
+/********************/
+// Using the Effect Hook
+// https://reactjs.org/docs/hooks-effect.html
+
+// Array.prototype.map()
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+
+// Using Fetch
+// https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+
+// Free fake API for testing and prototyping.
+// https://jsonplaceholder.typicode.com/

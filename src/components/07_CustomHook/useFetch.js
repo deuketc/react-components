@@ -1,5 +1,6 @@
-// https://www.youtube.com/watch?v=Jl4q2cccwf0 Full React Tutorial #20 - Making a Custom Hook
-// https://www.youtube.com/watch?v=XO77Fib9tSI async/await Part 1 - Topics of JavaScript/ES8
+/************************/
+/* My custom fetch hook */
+/************************/
 
 import { useState, useEffect } from 'react';
 
@@ -22,3 +23,12 @@ export const useFetch = (url) => {
 
   return { data, isPending };
 };
+
+/********************/
+/* More information */
+/********************/
+// Full React Tutorial #20 - Making a Custom Hook
+// https://www.youtube.com/watch?v=Jl4q2cccwf0
+
+// async/await Part 1 - Topics of JavaScript/ES8
+// https://www.youtube.com/watch?v=XO77Fib9tSI

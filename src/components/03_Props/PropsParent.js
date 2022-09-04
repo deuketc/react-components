@@ -1,14 +1,23 @@
-// https://reactjs.org/docs/components-and-props.html
+/********************************/
+/* Props - The parent component */
+/********************************/
 
-import ComponentPropsChild from './PropsChild';
+import PropsChild from './PropsChild';
 
-function ComponentPropsParent() {
+const PropsParent = () => {
   return (
     <>
-      <ComponentPropsChild name='John Smith' />
-      <ComponentPropsChild name='Joe Bloggs' />
+      <h3>React Props - Parent Component</h3>
+      <PropsChild name='John Smith' />
+      <PropsChild name='Joe Bloggs' />
     </>
   );
-}
+};
 
-export default ComponentPropsParent;
+export default PropsParent;
+
+/********************/
+/* More Information */
+/********************/
+// Official Docs
+// https://reactjs.org/docs/components-and-props.html

@@ -1,6 +1,8 @@
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals Template literals (Template strings)
+/*******************************/
+/* Using a custom hook - fetch */
+/*******************************/
 
-import { useState } from 'react/cjs/react.development';
+import { useState } from 'react';
 import { useFetch } from './useFetch';
 
 function ComponentUsingCustomHook() {
@@ -29,3 +31,9 @@ function ComponentUsingCustomHook() {
 }
 
 export default ComponentUsingCustomHook;
+
+/********************/
+/* More information */
+/********************/
+// Template literals (Template strings)
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
